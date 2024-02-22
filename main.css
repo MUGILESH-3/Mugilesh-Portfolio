@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+.body{
+    position: relative;
+    background-color: black;
+}
+.nav{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    display: flex;
+    width: 100%;
+    height: 80px;  
+}
+.nav h1{
+    float: left;
+    position: relative;
+    left: 80px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.nav ul{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 500px;
+    list-style-type: none;
+    margin-bottom: 55px;
+}
+.nav li{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.nav li:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.content{ 
+}
+.handp{
+    position: relative;
+    display: flex;
+}
+.headline{
+    color: whitesmoke;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.role{
+    color: aqua;
+    font-size: 30px;
+}
+.headline ul{
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+.headline ul li{
+    margin-right: 30px;
+    color: aqua;
+}
+.photo img{
+        position: relative;
+        left: 200px;
+        top: 80px;
+        width: 400px;
+        height: 400px;
+    }  
+/*-----------------------------------------------------------------------------------------------*/
+.ec{
+    
+}
+.education{
+    position: relative;
+    top: 130px;
+    left: 80px;
+    color: whitesmoke;
+    margin-right: 100px;
+}
+.education h2{
+    color: aqua;
+    width: 100px;
+    font-weight: bold;
+}
+.edu{
+    margin-top: 30px;
+}
+.certificate{
+    position: relative;
+    left: 700px;
+    bottom: 125px;
+    width: 400px;
+}
+.certificate h2{
+    color: aqua;
+    font-weight: bold;
+}
+.lin1{
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.lin{
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.linl{
+    color: whitesmoke;
+    margin-top: 30px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.skill{
+    position: relative;
+   justify-content: center;
+   padding-top: 100px;
+}
+.layer1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+.layer2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+.si{
+    margin-right: 50px;
+}
+.si h3{
+    color: whitesmoke;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.projects{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 700px;
+    padding-top: 80px;
+}
+.projects h2{
+    color: aqua;
+    font-weight: bold;
+    width: 300px;
+}
+.pro1{
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.prol{
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.contact{
+    position: relative;
+    display: flex; 
+    left: 100px;
+    top: 100px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    margin-right: 100px;
+}
+.contact h2{
+    color: aqua;
+    font-weight: bold;
+    font-size: 50px; 
+}
+.cont{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: whitesmoke;
+}
+.cont a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cont a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+
+    
+    .nav{
+        position: relative;
+        width: 100%;
+        height: 1px;
+
+    }
+    .nav h1{
+        position: absolute;
+        left: 25px;
+        top: 5px;
+        color: red;
+        font-size: 15px;
+    }
+    .nav ul{
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        
+    }
+    .nav ul li{
+        font-size: 8px;
+        margin-right: 5px;
+    }
+    .headline{
+        color: whitesmoke;
+        position: relative;
+        display: flex;
+        top: 80px;
+        left: 25px;
+        width: 30%;
+    }
+    .headline h3{
+        font-size: 5px;
+        position: absolute;
+        top: 0px;
+       
+    }
+    .headline h1{
+        font-size: 12px;
+        position: absolute;
+        top: 10px;
+    }
+    .headline h2{
+        font-size: 8px;
+        position: absolute;
+        top: 20px;
+    }
+    .role{
+        color: aqua;
+        font-size: 15px;
+        position: absolute;
+    }
+    .photo img{
+        position: absolute;
+        left: 170px;
+        top: 80px;
+        width: 80px;
+        height: 80px;
+    }
+}
